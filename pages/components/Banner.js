@@ -2,9 +2,9 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <div className='w-full bg-light-navy h-96 flex'>
-      <div className='flex w-full justify-between items-center'>
-        <div className='w-2/3 flex flex-col items-center gap-6'>
+    <div className='items-cente w-full bg-light-navy h-96 flex'>
+      <div className='flex w-1/2 justify-between items-center mx-auto my-auto'>
+        <div className='flex flex-col items-center gap-6'>
           <h1 className='text-4xl font-mono font-bold text-navy'>
             <span className='text-white'>Welcome</span>
             <br /> to Digital Journal!
@@ -15,7 +15,7 @@ const Banner = () => {
             quibusdam, a aliquam.
           </p>
         </div>
-        <div className='w-96 mr-96'>
+        <div className='w-96'>
           <p className='text-3xl text-navy font-bold leading-10'>
             <em>
               <span className='text-white text-4xl'>I will</span> keep constant
