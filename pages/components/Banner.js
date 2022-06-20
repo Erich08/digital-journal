@@ -20,7 +20,7 @@ const Banner = () => {
             <em>
               <span className='text-white text-4xl'>I will</span> keep constant
               watch over myself and, most usefully, will put each day up for
-              review
+              review.
             </em>{' '}
           </p>
           <p className='ml-20 text-2xl text-white mt-2'>

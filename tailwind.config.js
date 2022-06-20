@@ -10,6 +10,7 @@ module.exports = {
         gold: '#fca311',
         navy: '#14213d',
         'light-navy': '#4a4e69',
+        smokey: '#8d99ae',
       },
     },
   },
