@@ -12,7 +12,7 @@ const Navbar = () => {
         Digital Journal App
       </h1>
       <nav>
-        <ul className='flex gap-10 text-xl font-mono uppercase'>
+        <ul className='hidden md:flex gap-10 text-xl font-mono uppercase'>
           <li className='hover:bg-light-navy  cursor-pointer rounded-md'>
             <Link href='/' for='Home'>
               <a className='p-2'>Home</a>
