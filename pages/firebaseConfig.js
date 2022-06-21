@@ -2,7 +2,7 @@ import { getFirestore } from 'firebase/firestore';
 import { initializeApp } from 'firebase/app';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyAFMz2BgtwXzOfoutjtj0FVrVGdeC03gLM',
+  apiKey: process.env.REACT_APP_FB_ID,
   authDomain: 'evernote-clone-94a89.firebaseapp.com',
   projectId: 'evernote-clone-94a89',
   storageBucket: 'evernote-clone-94a89.appspot.com',
