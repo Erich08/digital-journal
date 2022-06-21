@@ -14,10 +14,14 @@ const Navbar = () => {
       <nav>
         <ul className='flex gap-10 text-xl font-mono uppercase'>
           <li className='hover:bg-light-navy  cursor-pointer rounded-md'>
-            <a className='p-2'>Home</a>
+            <Link href='/' for='Home'>
+              <a className='p-2'>Home</a>
+            </Link>
           </li>
           <li className='hover:bg-light-navy cursor-pointer rounded-md'>
-            <a className='p-2'>Entries</a>
+            <Link href='/components/Entries' for='Entries'>
+              <a className='p-2'>Entries</a>
+            </Link>
           </li>
           <li className='hover:bg-light-navy  cursor-pointer rounded-md'>
             <a className='p-2'>Login</a>
