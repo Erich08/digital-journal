@@ -18,3 +18,18 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 3px 5px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.MuiOutlinedInput-input,
+.MuiFormHelperText-root,
+.MuiInput-input,
+.MuiButton-root {
+  color: white;
+}
