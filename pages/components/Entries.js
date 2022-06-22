@@ -5,7 +5,7 @@ import {
   doc,
   addDoc,
 } from 'firebase/firestore';
-import { app, db } from '../firebaseConfig';
+import { app, db } from '../_firebaseConfig.page';
 import React, { useState, useEffec, useRef, useEffect } from 'react';
 import Button from '@mui/material/Button';
 
