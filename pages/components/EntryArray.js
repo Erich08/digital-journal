@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '@mui/material/Button';
-import doc from 'firebase/firestore';
 
 const EntryArray = ({ entryArray, deleteEntry }) => {
   return (

@@ -68,8 +68,6 @@ const Entries = () => {
 
   return (
     <div className='h-screen flex w-1/2 justify-between mx-auto mt-20'>
-      {/* Form input */}
-
       <div className='flex flex-col w-96 h-96 justify-between'>
         <h1 className='text-3xl text-white font-mono'>What is on your mind?</h1>
 
@@ -90,7 +88,6 @@ const Entries = () => {
           <Button onClick={addEntryData}>Save</Button>
         </div>
       </div>
-      {/* List of entries */}
       <div className='flex flex-col w-96 gap-10 h-96 overflow-scroll p-5 overflow-x-hidden'>
         <h1 className='text-2xl text-white font-mono text-center'>Entries</h1>
         <EntryArray
