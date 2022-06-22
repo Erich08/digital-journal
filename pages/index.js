@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Banner from './components/Banner';
 import CallToAction from './components/CallToAction';
-import Entries from './components/Entries';
 
 export default function Home() {
   return (
