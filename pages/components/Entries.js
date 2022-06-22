@@ -71,7 +71,7 @@ const Entries = () => {
       {/* Form input */}
 
       <div className='flex flex-col w-96 h-96 justify-between'>
-        <h1 className='text-3xl text-white font-mono'>What's on your mind?</h1>
+        <h1 className='text-3xl text-white font-mono'>What is on your mind?</h1>
 
         <div className='flex flex-col h-96 bg-light-navy p-10 rounded-lg shadow-xl justify-between mt-10'>
           <FormControl className=''>
